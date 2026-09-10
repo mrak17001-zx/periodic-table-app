@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Periodic Table App</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:linear-gradient(135deg,#071a2d,#123c63);
+  color:white;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:25px;
+}
+.card{
+  width:100%;
+  max-width:700px;
+  text-align:center;
+  padding:40px 25px;
+  border-radius:25px;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.2);
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+  backdrop-filter:blur(12px);
+}
+.badge{
+  display:inline-block;
+  padding:10px 18px;
+  border-radius:30px;
+  background:#fff;
+  color:#123c63;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+h1{font-size:42px;margin:10px 0}
+h2{font-size:30px;margin:25px 0 12px}
+p{
+  font-size:17px;
+  line-height:1.7;
+  color:#e8f2fb;
+}
+.download{
+  display:inline-block;
+  margin:22px 0;
+  padding:16px 30px;
+  border-radius:14px;
+  background:#ffffff;
+  color:#123c63;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:18px;
+  box-shadow:0 8px 25px rgba(0,0,0,.25);
+  transition:.2s;
+}
+.download:hover{transform:translateY(-3px)}
+.features{
+  text-align:left;
+  margin:25px auto 0;
+  max-width:520px;
+}
+.features div{
+  padding:12px 0;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+.small{font-size:13px;color:#bcd0e2;margin-top:25px}
+</style>
+</head>
+
+<body>
+<div class="card">
+  <div class="badge">NO LOGIN • FREE ENTRY</div>
+
+  <h1>Welcome</h1>
+
+  <p>
+    Welcome to the Periodic Table App!<br>
+    Learn chemical elements in a simple, clear and student-friendly way.
+  </p>
+
+  <a class="download" href="base.apk" download>
+    📥 Download Periodic Table App
+  </a>
+
+  <h2>About the App</h2>
+
+  <p>
+    <b>Periodic Table</b> is a useful educational app for students
+    who want to learn about chemical elements and the periodic table
+    quickly and easily.
+  </p>
+
+  <div class="features">
+    <div>🧪 Easy way to explore chemical elements</div>
+    <div>📚 Helpful for school-level chemistry study</div>
+    <div>🔬 Learn element names and symbols</div>
+    <div>⚡ Simple and student-friendly experience</div>
+    <div>📱 Designed for convenient mobile learning</div>
+  </div>
+
+  <p class="small">
+    No login required • Free entry • Educational purpose
+  </p>
+</div>
+</body>
+</html>
